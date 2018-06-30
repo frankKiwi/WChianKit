@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   
 
   s.name         = "WChianKit"
-  s.version      = "0.0.6"
+  s.version      = "0.0.8"
   s.summary      = "一个链式语法写的UI工程"
 
   
