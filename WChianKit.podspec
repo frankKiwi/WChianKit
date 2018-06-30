@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   
 
   s.platform     = :ios, "8.0"
-  s.source_files = "Kiwi-UI-Fa","Kiwi-UI-Fa/**/*.{h,m}"
+  s.source_files = '**/*.{h,m}'
 
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
