@@ -22,8 +22,9 @@ Pod::Spec.new do |s|
 
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
   
-
+  s.source       = { :git => "https://github.com/frankKiwi/WChianKit.git", :tag => "#{s.version}" }
   s.platform     = :ios, "8.0"
+
   s.source_files = '**/*.{h,m}'
 
   s.frameworks = "UIKit", "Foundation"
@@ -31,7 +32,7 @@ Pod::Spec.new do |s|
 
  
 
-  s.source       = { :git => "https://github.com/frankKiwi/WChianKit.git", :tag => "#{s.version}" }
+  
 
 
   
