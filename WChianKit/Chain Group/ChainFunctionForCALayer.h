@@ -42,7 +42,7 @@
 - (ChainFunctionForCALayer *(^)(BOOL)) allowsEdgeAntialiasing;
 - (ChainFunctionForCALayer *(^)(CGColorRef)) backgroundColor;
 - (ChainFunctionForCALayer *(^)(CGFloat)) cornerRadius;
-- (ChainFunctionForCALayer *(^)(CACornerMask)) maskedCorners CA_AVAILABLE_STARTING (10.13, 11.0, 11.0, 4.0);
+- (ChainFunctionForCALayer *(^)(CACornerMask)) maskedCorners;
 - (ChainFunctionForCALayer *(^)(CGFloat)) borderWidth;
 - (ChainFunctionForCALayer *(^)(CGColorRef)) borderColor;
 - (ChainFunctionForCALayer *(^)(float)) opacity;
